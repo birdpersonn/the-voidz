@@ -1,0 +1,140 @@
+:root {
+    --cursor-url: url(assets/alex.png);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: wheat;
+    cursor: var(--cursor-url) 40 40, auto !important;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url(assets/bg-static.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    background-attachment: fixed;
+    font-size: 50px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    font-size: 10px;
+    position: absolute;
+    top: calc(100vh - 20px);
+    left: calc(100vw - 430px);
+    text-align: right;
+}
+
+button {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img.robot-img {
+    position: absolute;
+    transform: rotate(15deg);
+    top: 5px;
+    left: 5px;
+    width: 125px;
+}
+
+img.rad-dog {
+    width: 75%;
+}
+
+.eyes {
+    position: absolute;
+    top: 67px;
+    left: 31px;
+    display: flex;
+    transform: rotate(15deg);
+    gap: 12px;
+}
+
+.eyes .eye {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: #000;
+    margin: 0px 6px;
+    border-radius: 50%;
+}
+
+.eyes .eye::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 0, 0, .8);
+    border-radius: 50%;
+}
+
+.jiggle {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(15deg); }
+    10% { transform: translate(-1px, -2px) rotate(14deg); }
+    20% { transform: translate(-3px, 0px) rotate(16deg); }
+    30% { transform: translate(3px, 2px) rotate(15deg); }
+    40% { transform: translate(1px, -1px) rotate(16deg); }
+    50% { transform: translate(-1px, 2px) rotate(14deg); }
+    60% { transform: translate(-3px, 1px) rotate(15deg); }
+    70% { transform: translate(3px, 1px) rotate(14deg); }
+    80% { transform: translate(-1px, -1px) rotate(16deg); }
+    90% { transform: translate(1px, 2px) rotate(15deg); }
+    100% { transform: translate(1px, -2px) rotate(14deg); }
+  }
+
+.laser {
+    width: 50px;
+    height: 3px;
+    transform: rotate(45deg);
+    position: absolute;
+    background: rgba(255, 0, 0, 0);
+}
+
+#left-laser {
+    top: 75px;
+    left: 30px;
+}
+
+#right-laser {
+    top: 80px;
+    left: 60px;
+}
+
+#fire {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#fire img {
+    width: 150px;
+}
