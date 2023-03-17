@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 :root {
     --cursor-url: url(assets/alex.png);
 }
@@ -18,21 +21,14 @@ body {
     background-size: 100% 100%;
     background-position: center top;
     background-attachment: fixed;
-    font-size: 50px;
+    font-size: 75px;
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-h2 {
-    font-size: 10px;
-    position: absolute;
-    top: calc(100vh - 20px);
-    left: calc(100vw - 430px);
-    text-align: right;
+    font-family: "vt323";
 }
 
 button {
@@ -137,4 +133,17 @@ img.rad-dog {
 
 #fire img {
     width: 150px;
+}
+
+.note {
+    display: flex;
+}
+
+.nonsense {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 16px;
+    text-align: right;
+    font-family: "inconsolata";
 }
