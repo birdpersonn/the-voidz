@@ -1,0 +1,28 @@
+body {
+    background-image: url(./assets/mv/monitors.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.monitors {
+    position: relative;
+}
+
+.r2m2 {
+    position: absolute;
+    top: 12vh;
+    left: 2.5vw;
+    transform: scale(.38);
+}
+
+button {
+    cursor: pointer;
+}
