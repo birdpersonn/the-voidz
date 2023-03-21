@@ -95,7 +95,11 @@ button {
 }
 
 .r2m6 {
-
+    position: absolute;
+    top: 65.1vh;
+    left: 77vw;
+    width: 10.9%;
+    height: 24.8%;
 }
 
 .r2m7 {
@@ -104,9 +108,18 @@ button {
 
 /********** ROW 3 **********/
 .r3m1 {
-
+    position: absolute;
+    bottom: 0vh;
+    left: 5.45vw;
+    width: 11.3%;
+    height: 25.9%;
 }
 
 .r3m2 {
-
+    position: absolute;
+    top: 59.1vh;
+    left: 17.55vw;
+    width: 11.6%;
+    height: 22.5%;
+    /* opacity: 0%; */
 }
