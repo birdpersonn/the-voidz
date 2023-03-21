@@ -61,11 +61,20 @@ button {
 }
 
 .r1m6 {
-
+    position: absolute;
+    top: 36.65vh;
+    left: 76.4vw;
+    width: 9.9%;
+    height: 21.1%;
+    /* opacity: 0; */
 }
 
 .r1m7 {
-
+    position: absolute;
+    top: 46.19vh;
+    right: 0vw;
+    width: 13%;
+    height: 25.3%;
 }
 
 /********** ROW 2 **********/
