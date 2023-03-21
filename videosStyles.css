@@ -1,28 +1,112 @@
-body {
+* {
+    margin: 0px;
+}
+
+.monitors {
     background-image: url(./assets/mv/monitors.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
 }
 
 button {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .monitors {
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/********** TOP RIGHT MONITOR **********/
+.tr {
+    position: absolute;
+    top: 5.9vh;
+    left: 78.2vw;
+    width: 13.3%;
+    height: 26%;
+}
+
+/********** ROW 1 **********/
+.r1m1 {
+
+}
+
+.r1m2 {
+
+}
+
+.r1m3 {
+
+}
+
+.r1m4 {
+
+}
+
+.r1m5 {
+    position: absolute;
+    top: 14vh;
+    left: 58.1vw;
+    width: 16.4%;
+    height: 31.2%;
+}
+
+.r1m6 {
+
+}
+
+.r1m7 {
+
+}
+
+/********** ROW 2 **********/
+
+.r2m1 {
+
 }
 
 .r2m2 {
     position: absolute;
-    top: 12vh;
-    left: 2.5vw;
-    transform: scale(.38);
+    top: 34.4vh;
+    left: 15.8vw;
+    width: 14%;
+    height: 25%;
 }
 
-button {
-    cursor: pointer;
+.r2m3 {
+
+}
+
+.r2m4 {
+
+}
+
+.r2m5 {
+
+}
+
+.r2m6 {
+
+}
+
+.r2m7 {
+
+}
+
+/********** ROW 3 **********/
+.r3m1 {
+
+}
+
+.r3m2 {
+
 }
