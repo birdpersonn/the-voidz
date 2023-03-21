@@ -37,15 +37,28 @@ button {
 
 /********** ROW 1 **********/
 .r1m1 {
-
+    position: absolute;
+    top: 18.25vh;
+    left: 0vw;
+    width: 13.4%;
+    height: 26.2%;
 }
 
 .r1m2 {
-
+    position: absolute;
+    top: 10.05vh;
+    left: 16.1vw;
+    width: 12.05%;
+    height: 21.15%;
 }
 
 .r1m3 {
-
+    position: absolute;
+    top: 7.7vh;
+    left: 31.5vw;
+    width: 11.55%;
+    height: 25.35%;
+    /* opacity: 0; */
 }
 
 .r1m4 {
@@ -66,7 +79,6 @@ button {
     left: 76.4vw;
     width: 9.9%;
     height: 21.1%;
-    /* opacity: 0; */
 }
 
 .r1m7 {
