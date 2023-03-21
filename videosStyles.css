@@ -58,11 +58,15 @@ button {
     left: 31.5vw;
     width: 11.55%;
     height: 25.35%;
-    /* opacity: 0; */
 }
 
 .r1m4 {
-
+    position: absolute;
+    top: 8.7vh;
+    left: 44.3vw;
+    width: 13.4%;
+    height: 23.3%;
+    /* opacity: 0; */
 }
 
 .r1m5 {
